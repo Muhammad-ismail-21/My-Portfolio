@@ -1,0 +1,95 @@
+@media (max-width :360px) {
+    body {
+        font-size: 0.8rem;
+    }
+    header {
+        width: auto;
+    }
+
+    .heading {
+        letter-spacing: 0px;
+        padding: 0%;
+        font-size: 0;
+    }
+
+    nav {
+        height: 12px;
+    }
+
+    nav a {
+        padding: 4px;
+        font-size: 0.7rem;
+    }
+
+    .intro {
+        padding: 20px;
+        width: 270px;
+        font-size: 1rem;
+        box-shadow: 0 0 15px grey;
+    }
+    #name {
+        font-size: 1.2rem;
+    }
+    img {
+        width: 0px;
+    }
+
+    .home {
+        margin: 0%;
+        padding: 0px;
+        width: 340px;
+    }
+
+    .second_sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 5px;
+        margin: 15px;
+    }
+
+    .technical, .language, .soft {
+        font-size: 0.8rem;
+        padding: 15px;
+    }
+
+    .projects, .experience, .about, .contact {
+        font-size: 0.8rem;
+        padding:13px ;
+    }
+
+    .form {
+        padding: 10px;
+    }
+
+    input[type="text"], input[type="email"] {
+        font-size: 0.6rem;
+        width: 50%;
+    }
+
+    textarea {
+        font-size: 0.6rem;
+    }
+
+    #about_me {
+        padding: 30px;
+        font-size: 0.8rem;
+    }
+
+    .content ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        font-size: 0.6rem;
+    }
+
+    .socialicons a {
+        margin: 2px;
+    }
+}
+
+
+/* --------For tab (screen size of tablet)-------- */
